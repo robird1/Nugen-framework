@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     >
+    <LinearLayout style="@style/st_button_horizontal_default_no_margin"
+        android:id="@+id/id_button_b24">
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b24_headline"
+            style="@style/st_font_Default"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="22dp"
+            android:gravity="left|center_vertical"
+            android:maxLines="2"
+            android:text="@string/txt_labeltype"                         android:textColor="@color/main_grey"/>
+
+        <ImageView 
+            android:id="@+id/id_b24_picture"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="22dp"             />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b24_value"
+            style="@style/st_font_Value"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="4dp"
+            android:gravity="end|center_vertical"
+            android:maxLines="2"
+            
+android:minLines="1"
+
+android:text="Verzögerter bolus"
+            android:textColor="@color/main_grey" />
+
+    </LinearLayout>
+
+</FrameLayout>

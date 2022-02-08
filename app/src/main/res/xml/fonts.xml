@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<familyset>
+
+    <!-- Font with all four styles defined -->
+    <family>
+        <nameset>
+            <name>roboto</name>
+        </nameset>
+        <fileset>
+            <file>roboto_medium.ttf</file>
+            <file>roboto_light.ttf</file>
+            <file>roboto_regular.ttf</file>
+        </fileset>
+    </family>
+</familyset>  

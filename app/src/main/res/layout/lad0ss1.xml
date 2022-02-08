@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lad0ss1_rel_all"
+    android:layout_width="320dp"
+    android:layout_height="455dp" >
+
+    <RelativeLayout
+        android:id="@+id/lad0ss1_view"
+        android:layout_width="320dp"
+        android:layout_height="405dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/lad0ss1_status_bg"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:minHeight="@dimen/dim_status_bg_height"
+            android:onClick="statusbg_click"
+            android:text="TextView" />
+
+        <RelativeLayout
+            android:id="@+id/lad0ss1_status_res"
+            android:layout_width="320dp"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:text="TextView" />
+
+        <ScrollView
+            android:id="@+id/lad0ss1_scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/lad0ss1_status_res"
+            android:layout_weight="1"
+            android:scrollbars="none" >
+
+            <TableLayout
+                android:id="@+id/lad0ss1_tableLayout"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:overScrollMode="always"
+                android:paddingTop="5dp" >
+                                    </TableLayout>
+            
+
+        </ScrollView>
+                    <LinearLayout
+            android:id="@+id/lad0ss1_bolus_short"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lad0ss1_scroll"
+            android:orientation="horizontal"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lad0ss1_ab"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</RelativeLayout>

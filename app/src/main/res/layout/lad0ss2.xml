@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lad0ss2_rel_all"
+    android:layout_width="320dp"
+    android:layout_height="455dp"
+    android:background="@color/background" >
+
+    <RelativeLayout
+        android:id="@+id/lad0ss2_view"
+        android:layout_width="320dp"
+        android:layout_height="405dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/lad0ss2_status_bg"
+            android:layout_width="320dp"
+            android:layout_height="@dimen/dim_status_bg_height"
+            android:orientation="horizontal"
+            android:text="TextView" />
+
+        <RelativeLayout
+            android:id="@+id/lad0ss2_status_res"
+            android:layout_width="320dp"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:id="@+id/lad0ss2_stop"
+            android:layout_width="320dp"
+            android:layout_height="233dp"
+            android:layout_below="@+id/lad0ss2_status_res"
+            android:orientation="horizontal" 
+            android:background="@drawable/pump_stopped_bg"/>
+
+       
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lad0ss2_ab"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</RelativeLayout>

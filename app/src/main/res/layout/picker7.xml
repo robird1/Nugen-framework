@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/picker7_grid"
+    android:layout_width="@dimen/dim_picker_width"
+    android:layout_height="@dimen/dim_picker_height"
+    android:background="@color/background"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:paddingEnd="21dp"                 android:paddingStart="21dp" >
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/picker7_title"
+        style="@style/st_font_SmallTitle"
+        android:layout_width="@dimen/dim_menuspace_numpad_disp_w"
+        android:layout_columnSpan="3"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingBottom="29dp"
+        android:paddingTop="28dp"
+        android:textColor="@color/main_grey" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/picker7_edit"
+        style="@style/st_font_Popup_Title"
+        android:layout_width="@dimen/dim_menuspace_numpad_disp_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_disp_h"
+        android:layout_columnSpan="3"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white"
+        android:contentDescription="@string/cd_edit1"
+        android:gravity="end|center"
+        android:lines="1"
+        android:maxLength="8"
+        android:paddingRight="10dp"
+        android:textColor="@color/main_grey" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num1"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn1"
+        android:gravity="center"
+        android:onClick="num1"
+        android:text="1"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num2"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn2"
+        android:gravity="center"
+        android:onClick="num2"
+        android:text="2"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num3"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn3"
+        android:gravity="center"
+        android:onClick="num3"
+        android:text="3"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num4"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn4"
+        android:gravity="center"
+        android:onClick="num4"
+        android:text="4"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num5"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn5"
+        android:gravity="center"
+        android:onClick="num5"
+        android:text="5"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num6"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn6"
+        android:gravity="center"
+        android:onClick="num6"
+        android:text="6"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num7"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn7"
+        android:gravity="center"
+        android:onClick="num7"
+        android:text="7"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num8"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn8"
+        android:gravity="center"
+        android:onClick="num8"
+        android:text="8"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num9"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn9"
+        android:gravity="center"
+        android:onClick="num9"
+        android:text="9"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_numPoint"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_point"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn10"
+        android:gravity="center"
+        android:onClick="num_point"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_num0"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_color"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn11"
+        android:gravity="center"
+        android:onClick="num0"
+        android:text="0"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        style="@style/st_font_NumpadKey"
+        android:id="@+id/picker7_numDel"
+        android:layout_width="@dimen/dim_menuspace_numpad_button_w"
+        android:layout_height="@dimen/dim_menuspace_numpad_button_h"
+        android:layout_margin="@dimen/dim_menuspace_numpadmargin"
+        android:background="@drawable/button_numpad_backspace"
+        android:clickable="true"
+        android:contentDescription="@string/cd_main_btn12"
+        android:gravity="center"
+        android:onClick="num_del"
+        android:textColor="@color/white" />
+
+</GridLayout>

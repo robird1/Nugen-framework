@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lower_action_bar1"
+    style="@style/st_LowerActionBar" >
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/btn_1"
+        style="@style/st_lower_Action_Button1"
+        android:contentDescription="@string/cd_footerbutton"
+        android:onClick="lowerClick_btn1" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:bottom="@dimen/dim_warning_bg_padding"
+        android:left="@dimen/dim_warning_bg_padding"
+        android:right="@dimen/dim_warning_bg_padding"
+        android:top="94dp">
+        <shape>
+            <solid android:color="@color/white" />
+
+            <corners android:radius="@dimen/dim_warning_bg_corner_radius" />
+        </shape>
+    </item>
+
+    
+</layer-list>

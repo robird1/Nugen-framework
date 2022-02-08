@@ -1,0 +1,116 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/Users/steve/Android Workspace/RCFrameworkLibrary
+                    -                            
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .externalToolBuilders/
+* .externalToolBuilders/NDKBuilder.launch
+* .idea/
+* .idea/.gitignore
+* .idea/libraries/
+* .idea/libraries/libs.xml
+* .idea/libraries/rcframeworklibrary.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* RCFrameworkLibrary.iml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* jni/ => app/src/main/jni/
+* libs/achartengine-1.2.0.jar => app/libs/achartengine-1.2.0.jar
+* libs/armeabi/libcustframeworksvr_jni.so => app/src/main/jniLibs/armeabi/libcustframeworksvr_jni.so
+* libs/boluscalculator-V01.00.jar => app/libs/boluscalculator-V01.00.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/com/.DS_Store => app/src/main/resources/com/.DS_Store
+* src/com/accu_chek/.DS_Store => app/src/main/resources/com/accu_chek/.DS_Store
+* src/com/accu_chek/solo_m/.DS_Store => app/src/main/resources/com/accu_chek/solo_m/.DS_Store
+* src/com/accu_chek/solo_m/rcapp/.DS_Store => app/src/main/resources/com/accu_chek/solo_m/rcapp/.DS_Store
+* src/com/accu_chek/solo_m/rcapp/application/.DS_Store => app/src/main/resources/com/accu_chek/solo_m/rcapp/application/.DS_Store
+* src/com/accu_chek/solo_m/rcapp/application/bgmcontrol/IBGMControl.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/bgmcontrol/IBGMControl.aidl
+* src/com/accu_chek/solo_m/rcapp/application/bgmcontrol/IBGMOnListener.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/bgmcontrol/IBGMOnListener.aidl
+* src/com/accu_chek/solo_m/rcapp/application/bgmcontrol/IMeInformationListener.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/bgmcontrol/IMeInformationListener.aidl
+* src/com/accu_chek/solo_m/rcapp/application/ble/IResponseListener.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/ble/IResponseListener.aidl
+* src/com/accu_chek/solo_m/rcapp/application/ble/RequestPack.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/ble/RequestPack.aidl
+* src/com/accu_chek/solo_m/rcapp/application/ble/ResponsePack.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/ble/ResponsePack.aidl
+* src/com/accu_chek/solo_m/rcapp/application/continua/IContinuaService.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/continua/IContinuaService.aidl
+* src/com/accu_chek/solo_m/rcapp/application/customizedhwmanager/adcreader/IADC.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/customizedhwmanager/adcreader/IADC.aidl
+* src/com/accu_chek/solo_m/rcapp/application/customizedhwmanager/ledcontrol/ILED.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/customizedhwmanager/ledcontrol/ILED.aidl
+* src/com/accu_chek/solo_m/rcapp/application/customizedhwmanager/vibrationcontrol/IHaptic.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/customizedhwmanager/vibrationcontrol/IHaptic.aidl
+* src/com/accu_chek/solo_m/rcapp/application/emwrservice/IEMWRInformation.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/emwrservice/IEMWRInformation.aidl
+* src/com/accu_chek/solo_m/rcapp/application/emwrservice/IEMWRService.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/emwrservice/IEMWRService.aidl
+* src/com/accu_chek/solo_m/rcapp/application/fwupdate/IFWUpdateMain.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/fwupdate/IFWUpdateMain.aidl
+* src/com/accu_chek/solo_m/rcapp/application/gui/.DS_Store => app/src/main/resources/com/accu_chek/solo_m/rcapp/application/gui/.DS_Store
+* src/com/accu_chek/solo_m/rcapp/application/power/ICustPowerManager.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/power/ICustPowerManager.aidl
+* src/com/accu_chek/solo_m/rcapp/application/reminder/AlarmData.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/reminder/AlarmData.aidl
+* src/com/accu_chek/solo_m/rcapp/application/reminder/IReminderAlarm.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/reminder/IReminderAlarm.aidl
+* src/com/accu_chek/solo_m/rcapp/application/safety/SafetyByteArray.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/safety/SafetyByteArray.aidl
+* src/com/accu_chek/solo_m/rcapp/application/safety/SafetyFloat.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/safety/SafetyFloat.aidl
+* src/com/accu_chek/solo_m/rcapp/application/safety/SafetyNumber.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/safety/SafetyNumber.aidl
+* src/com/accu_chek/solo_m/rcapp/application/safety/SafetyString.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/safety/SafetyString.aidl
+* src/com/accu_chek/solo_m/rcapp/application/selftest/IPOSTManager.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/selftest/IPOSTManager.aidl
+* src/com/accu_chek/solo_m/rcapp/application/selftest/IPOSTResultListener.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/selftest/IPOSTResultListener.aidl
+* src/com/accu_chek/solo_m/rcapp/application/setting/generalsetting/IPCUpdateConfig.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/setting/generalsetting/IPCUpdateConfig.aidl
+* src/com/accu_chek/solo_m/rcapp/application/solompumpservice/IServiceCallback.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/solompumpservice/IServiceCallback.aidl
+* src/com/accu_chek/solo_m/rcapp/application/solompumpservice/SoloMServiceAidl.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/solompumpservice/SoloMServiceAidl.aidl
+* src/com/accu_chek/solo_m/rcapp/application/timemanagement/IDateTimeSettingCallback.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/timemanagement/IDateTimeSettingCallback.aidl
+* src/com/accu_chek/solo_m/rcapp/application/timemanagement/ITimeManagementService.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/timemanagement/ITimeManagementService.aidl
+* src/com/accu_chek/solo_m/rcapp/application/usbconnection/IPCConnect.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/usbconnection/IPCConnect.aidl
+* src/com/accu_chek/solo_m/rcapp/application/usbconnection/IUsbListener.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/usbconnection/IUsbListener.aidl
+* src/com/accu_chek/solo_m/rcapp/application/util/IRCSystemPeoperty.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/application/util/IRCSystemPeoperty.aidl
+* src/com/accu_chek/solo_m/rcapp/communication/customizedhwmanager/uartinterface/IUART.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/communication/customizedhwmanager/uartinterface/IUART.aidl
+* src/com/accu_chek/solo_m/rcapp/communication/uartuicp/IUICP.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/communication/uartuicp/IUICP.aidl
+* src/com/accu_chek/solo_m/rcapp/communication/uicommanddispatcher/IUICommandDispatcher.aidl => app/src/main/aidl/com/accu_chek/solo_m/rcapp/communication/uicommanddispatcher/IUICommandDispatcher.aidl
+* src/com/accu_chek/solo_m/rcapp/data/.DS_Store => app/src/main/resources/com/accu_chek/solo_m/rcapp/data/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

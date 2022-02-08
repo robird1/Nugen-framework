@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/id_button_b32"
+        android:layout_width="match_parent"                 android:layout_height="51dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/id_b32_title"
+                style="@style/st_font_SmallTitle"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="2" />
+                        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:orientation="vertical"                         android:paddingTop="3dp" >
+
+            <ImageView
+                android:id="@+id/id_b32_icon_1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/id_b32_value1"
+                style="@style/st_font_Value"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:orientation="vertical"                         android:paddingTop="3dp" >
+
+            <ImageView
+                android:id="@+id/id_b32_icon_2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:maxWidth="20dp" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/id_b32_value2"
+                style="@style/st_font_Value"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:orientation="vertical"                         android:paddingTop="3dp" >
+
+            <ImageView
+                android:id="@+id/id_b32_icon_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/id_b32_value3"
+                style="@style/st_font_Value"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

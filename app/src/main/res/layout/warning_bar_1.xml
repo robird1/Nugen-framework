@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/warning_bar1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/warning_btn_1"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:background="@drawable/warning_button_1_color"
+        android:contentDescription="@string/cd_footerbutton"
+        android:maxLines="2"
+        android:onClick="lowerClick_btn1"
+        android:textColor="@color/white" />
+
+</LinearLayout>

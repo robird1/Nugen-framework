@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:customfont="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@color/background"
+     android:orientation="vertical" >
+         <LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@drawable/background_7"
+     android:orientation="vertical" >
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="@dimen/activity_vertical_margin"
+         android:layout_marginEnd="28dp"
+         android:layout_marginStart="28dp"
+         android:orientation="vertical"
+>
+
+         <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+             android:id="@+id/id_lad27_title"
+             style="@style/st_font_Second_Line"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="19dp"
+             android:maxLines="1"                 android:textColor="@color/main_grey" />
+
+         <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+             android:id="@+id/id_lad27_text1"
+             style="@style/st_font_Default"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="40dp"
+             android:maxLines="1"                 android:textColor="@color/main_grey" />
+
+         <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+             android:id="@+id/id_lad27_text2"
+             style="@style/st_font_Default"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="62dp"
+             android:maxLines="1"                 android:textColor="@color/main_grey" />
+         
+                 <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                     android:id="@+id/id_lad27_message"
+                     style="@style/st_font_Default"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="106dp"
+                     android:maxLines="12" 
+android:textColor="@color/main_grey" />
+     </RelativeLayout>
+ 
+</LinearLayout>
+ </LinearLayout>

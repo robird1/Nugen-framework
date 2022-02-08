@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="51dp"
+    android:id="@+id/id_button_white_field"
+    android:background="@drawable/keyline_b29" >
+
+    <RelativeLayout
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:background="@color/main_grey" >
+
+        <ImageView
+            android:id="@+id/id_b29_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+	<com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+	        android:id="@+id/id_b29_text"
+	        style="@style/st_font_SmallTitle_bold"
+	        android:layout_width="244dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="6dp"
+	        android:layout_marginStart="63dp"
+	        android:lineSpacingExtra="0dp"
+	        android:gravity="start|center_vertical"
+	        android:lines="1"
+	        android:text="@string/txt_test"
+	        android:textColor="@color/white" />
+	
+    	<com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+	        android:id="@+id/id_b29_text2"
+	        style="@style/st_font_SmallTitle"
+	        android:layout_width="244dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="26dp"
+	        android:layout_marginStart="63dp"
+	        android:lineSpacingExtra="0dp"
+	        android:gravity="start|center_vertical"
+	        android:lines="1"
+	        android:text="@string/txt_test"
+	        android:textColor="@color/white" />
+
+   
+
+</RelativeLayout>

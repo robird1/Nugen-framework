@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lower_ab"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin" >
+
+        <TableLayout
+            android:id="@+id/picture_container"
+            style="@style/WallpaperContainer"
+            android:layout_gravity="center_horizontal">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <FrameLayout style="@style/WallpaperButton" 
+                    android:id="@+id/wallpaper_no_frame">
+
+                    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                        android:id="@+id/wallpaper_none"
+                        style="@style/st_button_default_2_lines"
+                        android:layout_width="120dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/txt_none"
+                        android:textAlignment="center" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/wallpaper_img1"
+                    style="@style/WallpaperButton"
+                    android:src="@drawable/wallpaper_320x455px_01_waves" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/wallpaper_img2"
+                    style="@style/WallpaperButton"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/wallpaper_320x455px_02_bubbles" />
+
+                <ImageView
+                    android:id="@+id/wallpaper_img3"
+                    style="@style/WallpaperButton"
+                    android:background="@color/black"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/wallpaper_320x455px_03_tartan" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/wallpaper_img4"
+                    style="@style/WallpaperButton"
+                    android:src="@drawable/wallpaper_320x455px_04_aluminium" />
+
+                <ImageView
+                    android:id="@+id/wallpaper_img5"
+                    style="@style/WallpaperButton"
+                    android:src="@drawable/wallpaper_320x455px_05_green" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/wallpaper_img6"
+                    style="@style/WallpaperButton"
+                    android:src="@drawable/wallpaper_320x455px_06_ripple" />
+
+                <ImageView
+                    android:id="@+id/wallpaper_img7"
+                    style="@style/WallpaperButton"
+                    android:src="@drawable/wallpaper_320x455px_07_flames" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/wallpaper_img8"
+                    style="@style/WallpaperButton"
+                    android:src="@drawable/wallpaper_320x455px_08_slant" />
+
+                <ImageView
+                    android:id="@+id/wallpaper_img9"
+                    style="@style/WallpaperButton"
+                    android:src="@drawable/wallpaper_320x455px_09_sunrise" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/lower_ab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+    </FrameLayout>
+
+</RelativeLayout>

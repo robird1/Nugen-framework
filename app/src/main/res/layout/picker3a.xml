@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/picker3a_rel"
+    android:layout_width="@dimen/dim_picker_width"
+    android:layout_height="@dimen/dim_picker_height"
+    android:layout_gravity="center"
+    android:background="@color/background" >
+
+    <ImageView
+        android:id="@+id/id_picker3a_img2"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/bg_background_to_brown_click"
+        android:clickable="true"
+        android:contentDescription="@string/cd_plusbutton"
+        android:onClick="right_icon_click"
+        android:src="@drawable/plus_70x70px" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/picker3a_title_divide"
+        style="@style/st_font_Picker"
+        android:layout_width="14dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="142dp"
+        android:gravity="center"
+        android:lines="1"
+        android:text=":"
+        android:textColor="@color/main_grey" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/picker3a_title_hours"
+        style="@style/st_font_Picker"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/bg_clockbox_white_to_brown"
+        android:clickable="true"
+        android:contentDescription="@string/cd_edit1"
+        android:gravity="center"
+        android:lines="1"
+        android:onClick="hour_click"
+        android:text="00"
+        android:textColor="@drawable/bg_clockbox_maingrey_to_white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/picker3a_title_minutes"
+        style="@style/st_font_Picker"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/bg_clockbox_white_to_brown"
+        android:clickable="true"
+        android:contentDescription="@string/cd_edit2"
+        android:gravity="center"
+        android:lines="1"
+        android:onClick="min_click"
+        android:text="00"
+        android:textColor="@drawable/bg_clockbox_maingrey_to_white" />
+
+    <ImageView
+        android:id="@+id/id_picker3a_img1"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/bg_background_to_brown_click"
+        android:clickable="true"
+        android:contentDescription="@string/cd_minusbutton"
+        android:onClick="left_icon_click"
+        android:src="@drawable/minus" />
+
+</RelativeLayout>

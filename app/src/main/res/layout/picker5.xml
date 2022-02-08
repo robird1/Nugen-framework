@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/picker5_rel"
+    android:layout_width="@dimen/dim_picker_width"
+    android:layout_height="321dp"
+    android:layout_gravity="center"
+    android:background="@color/background"
+    android:minHeight="@dimen/dim_picker_height"
+    android:minWidth="@dimen/dim_picker_width"
+    android:orientation="horizontal" >
+
+        <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="108dp"
+        android:background="@color/main_brown"
+        android:orientation="horizontal" >
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/picker5_title"
+            style="@style/st_font_Picker"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/cd_edit1"
+            android:gravity="center"
+            android:lines="1"
+            android:text="120"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/id_picker5_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/bg_background_to_brown_click"
+        android:clickable="true"
+        android:contentDescription="@string/cd_minusbutton"
+        android:src="@drawable/minus" />
+
+    <ImageView
+        android:id="@+id/id_picker5_img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/bg_background_to_brown_click"
+        android:clickable="true"
+        android:contentDescription="@string/cd_plusbutton"
+        android:src="@drawable/plus_70x70px" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/picker5_unit"
+        style="@style/st_font_Basal_Graph_Large"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/cd_label1"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingTop="194dp"
+        android:text="g"
+        android:textColor="@color/main_grey" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal" >
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_lad0020_unit1"
+            style="@style/st_font_SmallTitle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="2dp"
+            android:contentDescription="@string/cd_bgresult_unit"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="60dp"
+            android:text="mg/dL"
+            android:textColor="@color/main_grey" />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_lad0020_unit2"
+            style="@style/st_font_SmallTitle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:contentDescription="@string/cd_unit"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="60dp"
+            android:text="U"
+            android:textColor="@color/main_grey" />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_lad0020_unit3"
+            style="@style/st_font_SmallTitle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:contentDescription="@string/cd_carbsunit"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="60dp"
+            android:text="BE"
+            android:textColor="@color/main_grey" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/lad20_line"
+        android:orientation="horizontal" />
+
+	<ListView android:id="@+id/listView1" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="match_parent">
+	</ListView>    
+    
+</LinearLayout>

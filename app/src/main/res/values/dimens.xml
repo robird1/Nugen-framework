@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Main Menu Table Dimensions -->
+    <dimen name="dim_menutable_width">292dp</dimen>
+    <dimen name="dim_menutable_height">432dp</dimen>
+    <dimen name="dim_menutable_paddingleft">14dp</dimen>
+    <dimen name="dim_menutable_paddingTop">23dp</dimen>
+    <dimen name="dim_splash_width">260dp</dimen>
+    <dimen name="dim_splash_height">50dp</dimen>
+    <dimen name="dim_button_white_field_width">288dp</dimen>
+    <dimen name="dim_button_width_b1_b17">320dp</dimen>
+    <dimen name="dim_button_height_b1_b17">51dp</dimen>
+    <dimen name="dim_button_divider_b1_b17">25dp</dimen>
+    <dimen name="dim_button_margin_b1_b17">22dp</dimen>
+    <dimen name="dim_menuspace_left_right_top">16dp</dimen>
+    <dimen name="dim_menuspace_numpadmargin">2dp</dimen>
+    <dimen name="dim_menuspace_numpad_button_h">41dp</dimen>
+    <dimen name="dim_menuspace_numpad_button_w">90dp</dimen>
+    <dimen name="dim_menuspace_numpad_disp_h">39dp</dimen>
+    <dimen name="dim_menuspace_numpad_disp_w">278dp</dimen>
+    <dimen name="dim_picker_width">320dp</dimen>
+    <dimen name="dim_picker_height">355dp</dimen>
+    <dimen name="dim_lower_ab_width">320dp</dimen>
+    <dimen name="dim_lower_ab_height">50dp</dimen>
+    
+    <dimen name="dim_warning_bg_padding">16dp</dimen>
+    <dimen name="dim_warning_bg_width">320dp</dimen>
+    <dimen name="dim_warning_bg_height">405dp</dimen>
+    <dimen name="dim_warning_bg_corner_radius">6dp</dimen>
+    <dimen name="dim_warning_button_corner_radius">3dp</dimen>
+    <dimen name="dim_warning_img_width">75dp</dimen>
+    <dimen name="dim_warning_img_height">75dp</dimen>
+    
+    <dimen name="dim_status_bg_width">320dp</dimen>
+    <dimen name="dim_status_bg_height">120dp</dimen>
+    <dimen name="dim_status_bg_margin_left">16dp</dimen>
+    <dimen name="dim_status_bg_margin_top">18dp</dimen>
+    <dimen name="dim_status_bg_max_width_res">160dp</dimen>
+    <dimen name="dim_status_bg_max_width_unit">80dp</dimen>
+
+
+    <dimen name="dim_button_horizontal_padding">22dp</dimen>
+    <dimen name="dim_button_horizontal_padding_end">20dp</dimen>
+    <dimen name="dim_button_vertical_padding">20dp</dimen>
+    <dimen name="dim_button_default_margin_left">16dp</dimen>
+    <dimen name="dim_button_default_margin_right">16dp</dimen>
+    
+	<dimen name="status_bar_h">25dp</dimen>
+    <dimen name="status_bar_margin">4dp</dimen>
+    <dimen name="action_bar_h">50dp</dimen>
+</resources>

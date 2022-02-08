@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_tab1_relative"
+    android:layout_width="320dp"
+    android:layout_height="34dp"
+    android:background="@color/main_grey" >
+
+    <RelativeLayout
+        android:id="@+id/id_tab1_relative_left"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="@drawable/bg_maingrey_to_pressed_click"
+        android:clickable="true"
+        android:onClick="tab2_left_icon_click" >
+
+        <ImageView
+            android:id="@+id/id_tab1_img1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/plus_40x40px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_tab1_green_left"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/insulin_button" />
+
+</RelativeLayout>

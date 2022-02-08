@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_tab2_relative"
+    android:layout_width="320dp"
+    android:layout_height="34dp"
+    android:background="@color/main_grey" >
+
+    <RelativeLayout
+        android:id="@+id/id_tab2_relative_left"
+        android:layout_width="159dp"
+        android:layout_height="34dp"
+        android:background="@drawable/bg_maingrey_to_pressed_click"
+        android:clickable="true"
+        android:onClick="tab2_left_icon_click" >
+
+        <ImageView
+            android:id="@+id/id_tab2_img1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/plus_40x40px" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/id_tab2_green_left"
+            android:layout_width="160dp"
+            android:layout_height="6dp"
+            android:layout_alignParentBottom="true" />
+    
+    <RelativeLayout
+        android:id="@+id/id_tab2_relative_divider"
+        android:layout_width="1dp"
+        android:layout_height="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/id_tab2_relative_left"
+        android:background="@color/keyline_light"
+        android:paddingStart="1dp" >
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/id_tab2_relative_right"
+        android:layout_width="159dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_maingrey_to_pressed_click"
+        android:clickable="true"
+        android:onClick="tab2_right_icon_click"
+        android:paddingStart="1dp" >
+
+        <ImageView
+            android:id="@+id/id_tab2_img2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/plus_40x40px" />
+
+    </RelativeLayout>
+            <RelativeLayout
+            android:id="@+id/id_tab2_green_right"
+            android:layout_width="160dp"
+            android:layout_height="6dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

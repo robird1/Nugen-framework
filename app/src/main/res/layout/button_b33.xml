@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="80dp"
+    android:id="@+id/id_button_white_field"
+    android:background="@drawable/keyline_b33" >
+
+    <RelativeLayout
+        android:layout_width="51dp"
+        android:layout_height="80dp"
+        android:background="@color/main_grey" >
+
+        <ImageView
+            android:id="@+id/id_b33_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/id_b33_text"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="Forgot Text?"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:width="244dp" />
+
+    <TextView
+        android:id="@+id/id_b33_text3"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="46dp"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="Second"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:typeface="normal" />
+    
+        <TextView
+            android:id="@+id/id_b33_text2"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="26dp"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="Second"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:typeface="normal" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_b17b_second_line"
+          style="@style/st_button_b17b_second_line"        
+     android:textColor="@color/main_grey" 
+
+android:contentDescription="@string/cd_downtext" >
+
+</com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager>
+
+</FrameLayout>

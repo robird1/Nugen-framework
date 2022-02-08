@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_b8_relative"
+    android:layout_width="@dimen/dim_button_width_b1_b17"
+    android:layout_height="@dimen/dim_button_height_b1_b17" >
+
+    <RelativeLayout
+        android:id="@+id/id_button_white_field"
+        android:layout_width="@dimen/dim_button_white_field_width"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bg_white_to_brown_click"
+        android:clickable="true"
+        android:onClick="b8_click" >
+       
+		<RadioButton
+            android:id="@+id/id_b8_chkb"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:button="@drawable/radio_button_color"                                                                                                             android:clickable="false"
+            android:linksClickable="false"
+            android:selectAllOnFocus="true" />
+        
+        
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b8_text"
+            android:layout_marginStart="51dp"
+            android:layout_marginEnd="51dp"
+            android:layout_centerVertical="true"
+            style="@style/st_button_default_2_lines"
+            android:text="Forgot text?" />
+
+
+        <ImageView
+            style="@style/st_button_dvider_brown"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="237dp" />
+
+        <ImageView
+            android:id="@+id/id_b8_img2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="243dp"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:src="@drawable/error_75x75" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/TableRow_spacinglad10"
+    android:layout_width="@dimen/dim_button_width_b1_b17"
+    android:layout_height="24dp"
+      >
+
+    <LinearLayout
+        android:layout_width="288dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/lad10_divider_img"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</TableRow>

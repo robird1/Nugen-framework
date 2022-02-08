@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/black"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/action_bar_h" >
+
+            <TableLayout
+                android:id="@+id/lad00qi_tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TableLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/layoutActionBar5_ref"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar_h"
+            layout="@layout/top_action_bar5" />
+    </RelativeLayout>
+	<FrameLayout
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <View
+          android:id="@+id/drawer_line"
+          android:layout_width="286dp"
+          android:layout_height="6dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginBottom="18dp"
+          android:background="@color/main_grey" />
+
+    <include
+        android:id="@+id/handle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_h"
+        layout="@layout/status_bar" />
+    </FrameLayout>
+
+</LinearLayout>

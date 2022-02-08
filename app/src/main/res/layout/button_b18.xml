@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_b18_relative"
+    android:layout_width="@dimen/dim_button_width_b1_b17"
+    android:layout_height="75dp" >
+
+    <RelativeLayout
+        android:id="@+id/id_button_white_field"
+        android:layout_width="@dimen/dim_button_white_field_width"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" >
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b18_text"
+            style="@style/st_font_SmallTitle"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-2dp"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="Forgot Text?"
+            android:textColor="@color/main_grey"
+            android:width="217dp" />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b18_box_left"
+            style="@style/st_font_Second_Line"
+            android:layout_width="135dp"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_white_to_brown_click"
+            android:clickable="true"
+            android:contentDescription="@string/cd_lefttext"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="123dp"
+            android:text="Forgot Text?"
+            android:textColor="@color/main_grey" />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b18_box_right"
+            style="@style/st_font_Second_Line"
+            android:layout_width="135dp"
+            android:layout_height="51dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_white_to_brown_click"
+            android:clickable="true"
+            android:contentDescription="@string/cd_righttext"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="123dp"
+            android:text="Forgot Text?"
+            android:textColor="@color/main_grey" />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            style="@style/st_font_Second_Line"
+            android:layout_width="3dp"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="142dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/double_point_img"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="4dp"
+            android:width="217dp"             android:textColor="@color/main_grey" />
+    </RelativeLayout>
+
+</RelativeLayout>

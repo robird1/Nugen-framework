@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lad0010b_tab2"
+        android:layout_width="320dp"
+        android:layout_height="34dp"
+        android:orientation="vertical"
+        android:weightSum="1" />
+
+    <ScrollView
+        android:id="@+id/lad0010b_scroll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:paddingTop="30dp"
+
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/lad0010b_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"                                                                         android:rotation="90" >
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/lad0010b_lower_ab"
+        android:layout_width="@dimen/dim_lower_ab_width"
+        android:layout_height="@dimen/dim_lower_ab_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:weightSum="1" />
+
+</LinearLayout>

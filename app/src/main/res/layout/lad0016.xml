@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lad0016_relativeLayout_all"
+    android:layout_width="320dp"
+    android:layout_height="405dp"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/lad0016_rel_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"         android:layout_marginTop="-7dp" >
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_lad0016_text_result"
+            style="@style/st_font_Large_Bg_Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="false"
+            android:layout_centerVertical="false"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="105dp"
+            android:gravity="center|end"
+            android:maxLines="1"
+            android:maxWidth="216dp"
+            android:contentDescription="@string/cd_bgresult_text"
+            android:textColor="@color/main_grey" />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_lad0016_text_unit"
+            style="@style/st_font_Warning_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/id_lad0016_text_result"
+            android:layout_alignBottom="@+id/id_lad0016_text_result"
+            android:layout_alignStart="@+id/id_lad0016_image"
+            android:maxLines="1"
+            android:maxWidth="80dp"
+            android:contentDescription="@string/cd_bgresult_unit"
+            android:textColor="@color/main_grey" />
+
+        <ImageView
+            android:id="@+id/id_lad0016_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/id_lad0016_text_unit"
+            android:layout_marginBottom="27dp"
+            android:layout_toEndOf="@+id/id_lad0016_text_result" />
+
+        <ImageView
+            android:id="@+id/id_lad0016_hyper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/id_lad0016_image"
+            android:layout_alignTop="@+id/id_lad0016_text_result" />
+    </RelativeLayout>
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_lad0016_text_baseline"
+        style="@style/st_font_Popup_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lad0016_rel_result"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/main_grey" />
+
+      <LinearLayout
+        android:id="@+id/lad0016_lower_ab"
+        android:layout_width="@dimen/dim_lower_ab_width"
+        android:layout_height="@dimen/dim_lower_ab_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+</RelativeLayout>

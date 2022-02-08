@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"  
+	android:id="@+id/button_b26" 
+	>
+    
+	<com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+	    style="@style/st_font_Value"
+	    android:id="@+id/id_button_text"
+	    android:paddingStart="18dp" 
+	    android:paddingEnd="19dp"
+	    android:layout_width="115dp"
+	    android:layout_height="51dp"
+	    android:gravity="end|center_vertical"
+	    android:text="@string/txt_none"
+	    android:background="@drawable/bg_white_to_brown_click"
+	    android:textColor="@color/main_grey"
+	     />
+    
+</FrameLayout>

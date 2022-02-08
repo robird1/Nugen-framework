@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="375dp"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+ <LinearLayout
+        android:id="@+id/lad0010a_nonscroll"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/lad0010a_b10"
+            android:layout_width="@dimen/dim_button_width_b1_b17"
+            android:layout_height="@dimen/dim_button_height_b1_b17"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/id_lad0010a_text1"
+                style="@style/st_font_Default"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Forgot Text?"
+                android:textColor="@color/main_grey" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/id_lad0010a_text2"
+                style="@style/st_font_Default"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="9dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Forgot Text?"
+                android:textColor="@color/main_grey" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/id_lad0010a_text3"
+                style="@style/st_font_Second_Line"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="9dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Forgot Text?"
+                android:textColor="@color/main_grey" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/lad0010a_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <TableLayout
+            android:id="@+id/lad0010a_tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal" >
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

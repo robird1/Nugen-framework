@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_b19_relative"
+    android:layout_width="320dp"
+    android:layout_height="100dp"
+    android:background="@color/background"
+    android:minHeight="100dp"
+    android:minWidth="320dp" >
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_b19_text_below"
+        style="@style/st_font_SmallTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:contentDescription="@string/cd_bg_date"
+        android:gravity="center"
+        android:lines="1"
+        android:maxWidth="220dp"
+        android:minLines="1"
+        android:text="10:00 am, 17 Jan. 2013" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b19_text_result"
+            style="@style/st_font_Small_BG_Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-19dp"
+            android:contentDescription="@string/cd_bg_value"
+            android:gravity="center|top"
+            android:lines="1"
+            android:maxWidth="140dp"
+            android:text="0.00"
+            android:textColor="@color/main_grey" />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b19_text_unit"
+            style="@style/st_font_SmallTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/id_b19_text_result"
+            android:layout_marginBottom="12dp"
+            android:layout_toEndOf="@+id/id_b19_text_result"
+            
+android:lines="1"
+
+android:maxWidth="58dp"
+
+android:contentDescription="@string/cd_bg_unit"
+            android:text="mmo/l" />
+
+        <ImageView
+            android:id="@+id/id_b19_img1"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_above="@+id/id_b19_text_unit"
+            android:layout_alignLeft="@+id/id_b19_text_unit"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="6dp"
+            android:layout_toEndOf="@+id/id_b19_text_result"
+            android:contentDescription="@string/cd_bg_circle" />
+
+                                        </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/id_b19_img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/relativeLayout1"
+        
+android:layout_toRightOf="@+id/id_b19_text_below" 
+
+android:contentDescription="@string/cd_bg_hyper_hypo" />
+
+</RelativeLayout>

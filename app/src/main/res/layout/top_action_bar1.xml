@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lower_action_bar1"
+    android:layout_width="320dp"
+    android:layout_height="50dp"        android:background="@drawable/keyline" >
+    	        <!-- Workaround for force background fill    -->
+	        <View                  android:layout_width="match_parent"                 android:layout_height="fill_parent" />
+
+       <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+           android:id="@+id/actionbar_title_text"
+           android:layout_width="255dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_centerVertical="true"
+           android:layout_marginStart="55dp"
+           android:gravity="start|center_vertical"
+           android:lines="2"
+           android:maxLines="2"
+           android:textColor="@color/white"
+           android:textSize="18sp"
+           style="@style/st_font_ActionTitle" />
+
+    <ImageView
+        android:id="@+id/actionbar_img1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp" />
+
+</RelativeLayout>

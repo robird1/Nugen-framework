@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:gravity="top"
+	sothree:umanoPanelHeight="@dimen/status_bar_h"
+    sothree:umanoShadowHeight="0dp"
+    sothree:umanoFadeColor="@android:color/transparent"
+    android:clickable="true">
+
+	<!-- main activity content -->
+	<FrameLayout
+        android:id="@+id/the_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/status_bar_h">
+        
+      	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ViewStub
+                android:id="@+id/action_bar_stub"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inflatedId="@+id/action_bar_layout" />
+
+            <FrameLayout
+                android:id="@+id/layout_base_frame"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- Sliding Panel content -->
+    <fragment
+        android:id="@+id/status_bar_content"
+        android:name="com.accu_chek.solo_m.rcapp.application.gui.globaltools.SCR0382_quick_info_dropdown"
+        tools:layout="@layout/lad00qi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="status_drawer"/>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

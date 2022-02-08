@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="st_button_basic">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginEnd">@dimen/dim_button_default_margin_right</item>
+        <item name="android:layout_marginStart">@dimen/dim_button_default_margin_left</item>
+        <item name="android:minHeight">51dp</item>
+    </style>
+
+
+<style name="st_button_basic_no_center">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/dim_button_default_margin_right</item>
+        <item name="android:layout_marginStart">@dimen/dim_button_default_margin_left</item>
+        <item name="android:minHeight">51dp</item>
+    </style>
+
+    <style name="st_button_vertical_default_margin" parent="st_button_basic">
+        <item name="android:paddingStart">@dimen/dim_button_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/dim_button_horizontal_padding</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_white_to_brown_click</item>
+    </style>
+    
+        <style name="st_button_vertical_default_margin_noori" parent="st_button_basic">
+        <item name="android:paddingStart">@dimen/dim_button_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/dim_button_horizontal_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_white_to_brown_click</item>
+    </style>
+    
+        <style name="st_button_vertical_default_margin_fixed" parent="st_button_basic">
+        <item name="android:layout_marginStart">@dimen/dim_button_default_margin_left</item>
+        <item name="android:layout_marginEnd">@dimen/dim_button_default_margin_right</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_white_to_brown_click</item>
+    </style>
+    
+    <style name="st_button_vertical_default_margin_fixed_nobg" parent="st_button_basic">
+        <item name="android:layout_marginStart">@dimen/dim_button_default_margin_left</item>
+        <item name="android:layout_marginEnd">@dimen/dim_button_default_margin_right</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+        
+        
+    <style name="st_button_vertical_default_margin_16px" parent="st_button_basic">
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_white_to_brown_click</item>
+    </style>
+       
+    <style name="st_button_horizontal_default_margin_fixed" parent="st_button_basic">
+        <item name="android:paddingStart">@dimen/dim_button_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/dim_button_horizontal_padding_end</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_white_to_brown_click</item>
+    </style>
+    <style name="st_button_horizontal_default_no_margin" parent="st_button_basic_no_center">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_white_to_brown_click</item>
+    </style>
+    
+    <style name="st_button_b23" parent="st_button_basic">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_white_to_brown_click</item>
+    </style>
+    
+    <style name="st_button_horizontal_default_margin_fixed_nobg" parent="st_button_basic">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="st_button_b2" parent="st_button_basic">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">@dimen/dim_button_horizontal_padding</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_white_to_brown_click</item>
+    </style>
+
+    <!-- Begin text styles in buttons -->
+    <style name="st_button_b1_line1" parent="st_font_Default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/main_grey</item>
+    </style>
+
+    <style name="st_button_b1_line2" parent="st_font_Second_Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/main_grey</item>
+    </style>
+
+    <style name="st_button_default_2_lines" parent="st_font_Default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/main_grey</item>
+    </style>
+    
+        <style name="st_button_default_max_line" parent="st_font_Default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_grey</item>
+    </style>
+    
+    <style name="st_button_b3_line1" parent="st_font_Default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">@color/main_grey</item>
+    </style>
+        <style name="st_button_b3_line2" parent="st_font_Second_Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textColor">@color/main_grey</item>
+    </style>
+    <style name="st_button_b17a_default" parent="st_font_Default">
+        
+    </style>
+
+    <style name="st_button_b17b_second_line" parent="st_font_Second_Line">
+        
+    </style>
+    
+	<style name="SeekBarSolo" parent="android:Widget.SeekBar">
+      <item name="android:progressDrawable">@drawable/solo_scrubber_progress_horizontal</item>
+      <item name="android:indeterminateDrawable">@drawable/solo_scrubber_progress_horizontal</item>
+      <item name="android:thumb">@drawable/solo_scrubber_selector</item>
+  </style>
+
+</resources>

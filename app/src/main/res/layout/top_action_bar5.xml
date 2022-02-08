@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutActionBar5"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_h"
+    android:background="@color/black" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal" >
+
+	    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+	        android:id="@+id/actionbar_title_text"
+	        style="@style/st_font_Basal_Graph_Large"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_marginBottom="9dp"
+	        android:layout_marginStart="12dp"
+	        android:gravity="start|bottom"
+	        android:lines="1"
+	        android:maxWidth="122dp"
+	        android:text="@string/txt_test"
+	        android:textColor="@color/white" />
+
+	    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+	        android:id="@+id/actionbar_text"
+	        android:layout_width="130dp"
+	        android:layout_height="match_parent"
+	        android:layout_marginStart="13dp"
+	        android:layout_marginBottom="13dp"
+	        android:gravity="start|bottom"
+	        android:lines="1"
+	        android:lineSpacingExtra="0dp"
+	        android:textColor="@color/white"
+	        android:text="@string/txt_test"
+	        style="@style/st_font_SmallTitle" />
+    </LinearLayout>
+
+	<!-- line at the bottom -->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/keyline_light" />
+
+</RelativeLayout>

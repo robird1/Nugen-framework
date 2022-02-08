@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_b10_relative"
+    android:layout_width="@dimen/dim_button_width_b1_b17"
+    android:layout_height="@dimen/dim_button_height_b1_b17" >
+
+    <RelativeLayout
+        android:id="@+id/id_button_white_field"
+        android:layout_width="@dimen/dim_button_white_field_width"
+        android:layout_height="@dimen/dim_button_height_b1_b17"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bg_white_to_brown_click"
+        android:clickable="true"
+        android:onClick="b10_click" >
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b10_text"
+            style="@style/st_font_Second_Line"
+            android:layout_width="217dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="51dp"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:maxLines="2"
+            android:minLines="1"
+            android:text="Forgot Text?"
+            android:textColor="@color/main_grey"
+/>
+
+        <ImageView
+            android:id="@+id/id_b10_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="7dp"
+            android:contentDescription="@string/cd_button_icon"
+            android:maxHeight="40dp"
+            android:maxWidth="40dp"
+            android:src="@drawable/error_75x75" />
+
+</RelativeLayout>
+
+</RelativeLayout>

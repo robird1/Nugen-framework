@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_b20_relative"
+    android:layout_width="320dp"
+    android:layout_height="100dp"
+    android:background="@color/background" >
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:layout_width="288dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:gravity="center" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_b20_text"
+        style="@style/st_font_Default"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:lines="2"
+        android:maxLines="2"
+        android:minLines="1"
+        android:text="Forgot text?"         android:textColor="@color/main_grey" />
+
+</RelativeLayout>

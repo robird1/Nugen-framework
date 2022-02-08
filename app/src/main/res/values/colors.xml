@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_grey">#484444</color>
+    <color name="load_overlay">#D9484444</color>
+    <color name="function_keys">#CC484444</color>
+    <color name="main_grey_30">#4D484444</color>
+    <color name="main_brown">#988C81</color>
+    <color name="seperator">#80988C81</color>
+    <color name="light_brown">#E8E2D5</color>
+    <color name="popup_overlay">#D9E8E2D5</color>
+    <color name="background">#F4EFE5</color>
+    <color name="main_grey_40">#b0aba4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="ghosted">#636060</color>
+    <color name="android_grey">#282828</color>
+    <color name="keyline_light">#5A5A5B</color>
+    <color name="keyline_dark">#1E1E1E</color>
+    <color name="android_blue">#33B5E5</color>
+    <color name="info">#164F98</color>
+    <color name="warning">#EA6B25</color>
+    <color name="warning_pressed">#AD552D</color>
+    <color name="insulin_button">#59b832</color>
+    <color name="green_pressed">#3e8023</color>
+    <color name="carbs_brown">#a4785e</color>
+    <color name="insulin_pink">#c079ac</color>
+    <color name="basal_blue">#26c4af</color>
+    <color name="black">#000000</color>
+    <color name="bg_high">#1781dd</color>
+    <color name="bg_target">#00ab49</color>
+    <color name="bg_low">#ffd969</color>
+    <color name="bg_hypo">#ea234a</color>
+    <color name="bg_high_pressed">#105a9a</color>
+    <color name="bg_target_pressed">#007733</color>
+    <color name="bg_low_pressed">#b29749</color>
+    <color name="bg_hypo_pressed">#a31834</color>
+    <color name="bg_target_50">#8000ab49</color>
+    <color name="bg_high_30">#4d1781dd</color>
+    <color name="bg_target_30">#4d00ab49</color>
+    <color name="bg_low_30">#4dffd969</color>
+    <color name="bg_hypo_30">#4dea234a</color>
+    <color name="black_overlay">#66000000</color>
+    
+    
+    <!--  add by Steve --> 
+    <color name="bg_red">#FF0000</color>
+
+</resources>

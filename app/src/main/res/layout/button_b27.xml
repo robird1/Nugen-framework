@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+<LinearLayout
+    android:id="@+id/id_button_white_field"
+    android:layout_width="match_parent"
+    android:layout_height="51dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/bg_white_to_brown_click" >
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_b27_text"
+        style="@style/st_font_Default"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="20dp"
+        android:maxLines="2"
+        android:text="Forgot Text"         android:textColor="@color/main_grey"/>
+
+    <ImageView
+        android:id="@+id/id_b27_img"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/cd_main_btn1"
+        android:src="@drawable/on_slider" />
+    
+</LinearLayout>
+</FrameLayout>

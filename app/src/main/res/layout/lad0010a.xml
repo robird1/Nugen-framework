@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lad0010a_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:id="@+id/lad0010a_tab2"
+        android:layout_width="320dp"
+        android:layout_height="34dp"
+        android:orientation="vertical" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_weight="0.01" />
+
+        <LinearLayout
+            android:id="@+id/lad0010a_lower_ab"
+        android:layout_width="@dimen/dim_lower_ab_width"
+        android:layout_height="@dimen/dim_lower_ab_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+
+</LinearLayout>

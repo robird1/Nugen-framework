@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="month_array">
+        <item>@string/txt_mon01</item>
+        <item>@string/txt_mon02</item>
+        <item>@string/txt_mon03</item>
+        <item>@string/txt_mon04</item>
+        <item>@string/txt_mon05</item>
+        <item>@string/txt_mon06</item>
+        <item>@string/txt_mon07</item>
+        <item>@string/txt_mon08</item>        
+        <item>@string/txt_mon09</item>
+        <item>@string/txt_mon10</item>
+        <item>@string/txt_mon11</item>
+        <item>@string/txt_mon12</item>
+    </string-array>
+    <string-array name="timescale_array">
+        <item>@string/txt_6hours</item>
+        <item>@string/txt_12hours</item>
+        <item>@string/txt_1day</item>
+        <item>@string/txt_3days</item>
+        <item>@string/txt_7days</item>
+    </string-array>
+    <string-array name="timescale_array_num">
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+        <item>72</item>
+        <item>168</item>
+    </string-array>
+    <string-array name="timescaleweek_array">
+        <item>@string/txt_7days</item>
+        <item>@string/txt_14days</item>
+        <item>@string/txt_30days</item>
+        <item>@string/txt_60days</item>
+        <item>@string/txt_90days</item>
+    </string-array>
+    <string-array name="timescaleweek_array_num">
+        <item>168</item>
+        <item>336</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2160</item>
+    </string-array>
+    <string-array name="timescale_stdday_array">
+        <item>@string/txt_3days</item>
+        <item>@string/txt_7days</item>
+        <item>@string/txt_14days</item>
+        <item>@string/txt_30days</item>
+        <item>@string/txt_60days</item>
+        <item>@string/txt_90days</item>
+    </string-array>
+    <string-array name="timescale_stdday_array_num">
+        <item>72</item>
+        <item>168</item>
+        <item>336</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2160</item>
+    </string-array>
+    
+    <string-array name="timescale_target_array">
+        <item>@string/txt_3days</item>
+        <item>@string/txt_7days</item>
+        <item>@string/txt_14days</item>
+        <item>@string/txt_30days</item>
+        <item>@string/txt_60days</item>
+        <item>@string/txt_90days</item>
+    </string-array>
+    <string-array name="timescale_target_array_num">
+        <item>72</item>
+        <item>168</item>
+        <item>336</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2160</item>
+    </string-array>
+    
+    <string-array name="meal_time_view_array">
+        <item>@string/txt_mealtimeall</item>
+        <item>@string/txt_mealtimebeforemeal</item>
+        <item>@string/txt_mealtimeaftermeal</item>
+        <item>@string/txt_mealtimebedtime</item>
+        <item>@string/txt_mealtimefasting</item>
+        <item>@string/txt_mealtimeother</item>
+    </string-array>
+    <string-array name="reminder_tone">
+        <item>@string/txt_tonerocky</item>
+        <item>@string/txt_tonevibe</item>
+        <item>@string/txt_tonecalypso</item>
+        <item>@string/txt_tonejingle</item>
+        <item>@string/txt_tonebell</item>
+        <item>@string/txt_tonesunrise</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_button_white_field"
+    android:layout_width="@dimen/dim_button_white_field_width"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+	<com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+	    android:id="@+id/id_slider_title"
+	    style="@style/st_font_Default"
+	    android:layout_width="244dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginStart="22dp"
+	    android:layout_marginTop="15dp"
+	    android:maxLines="1" 	    android:textColor="@color/main_grey" />
+    
+	<SeekBar
+	    android:id="@+id/slider"
+	    style="@style/SeekBarSolo"
+	    android:layout_width="264dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginStart="12dp"
+	    android:layout_marginTop="8dp"
+	    android:progress="50" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/id_button_white_field"
+        style="@style/st_button_b2"
+        android:clickable="true"
+        android:onClick="b2_click" >
+
+        <RadioButton
+            android:id="@+id/id_b2_chkb"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:button="@drawable/radio_button_color"                                                                                                                         android:clickable="false"
+            android:linksClickable="false"
+            android:selectAllOnFocus="true" />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b2_radio_text"
+            style="@style/st_button_default_2_lines"
+            android:layout_marginStart="9dp"
+            android:text="Forgot text?" />
+
+    </LinearLayout>
+
+</LinearLayout>

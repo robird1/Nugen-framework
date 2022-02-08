@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lad008_lower_ab"
+        android:layout_width="@dimen/dim_lower_ab_width"
+        android:layout_height="@dimen/dim_lower_ab_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/lad008_scroll"
+        android:layout_width="@dimen/dim_button_width_b1_b17"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/dim_lower_ab_height"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <TableLayout
+            android:id="@+id/lad008_tableLayout"
+            android:layout_width="@dimen/dim_button_width_b1_b17"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dim_menuspace_left_right_top" >
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_button_white_field"
+    android:layout_width="320dp"
+    android:layout_height="75dp" >
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_status_slider_title"
+        style="@style/st_font_Default"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/cd_item_title"
+        android:lines="1"
+        android:maxLines="2"
+        android:text="New Bolus"
+        android:textColor="@color/main_grey" />
+
+     <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+         android:id="@+id/id_status_slider_value"
+         style="@style/st_font_Status_Details"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignStart="@+id/id_status_slider_title"
+         android:layout_below="@+id/id_status_slider_title"
+         android:contentDescription="@string/cd_item_value"
+         android:lines="1"
+         android:maxLines="1"
+         android:maxWidth="180dp"
+         android:text="TextView"
+         android:width="180dp"                   android:textColor="@color/main_grey"/>
+
+     <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+         android:id="@+id/id_status_slider_info"
+         style="@style/st_font_Default"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/id_status_slider_value"
+         android:layout_alignBottom="@+id/id_status_slider_value"
+         android:layout_marginStart="6dp"
+         android:layout_toEndOf="@+id/id_status_slider_value"
+         android:contentDescription="@string/cd_item_value2"
+         android:gravity="right"
+         android:maxWidth="102dp"
+         android:text="TextView"
+         android:textColor="@color/main_grey"
+         android:width="102dp" />
+
+     <ImageView
+         android:id="@+id/id_status_slider_img"
+         android:layout_width="290dp"
+         android:layout_height="14dp"
+         android:layout_alignStart="@+id/id_status_slider_value"
+         android:layout_below="@+id/id_status_slider_info"
+         android:maxHeight="14dp"
+         android:maxWidth="290dp"
+         android:src="@drawable/slider_mid" />
+
+</RelativeLayout>

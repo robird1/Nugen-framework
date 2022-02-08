@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/solo_loading_icon_p1" android:duration="50" />
+    <item android:drawable="@drawable/solo_loading_icon_p2" android:duration="50" />
+    <item android:drawable="@drawable/solo_loading_icon_p3" android:duration="50" />
+    <item android:drawable="@drawable/solo_loading_icon_p4" android:duration="50" />
+    <item android:drawable="@drawable/solo_loading_icon_p5" android:duration="50" />
+    <item android:drawable="@drawable/solo_loading_icon_p6" android:duration="50" />
+	<item android:drawable="@drawable/solo_loading_icon_p7" android:duration="50" />
+    <item android:drawable="@drawable/solo_loading_icon_p8" android:duration="50" />
+    <item android:drawable="@drawable/solo_loading_icon_p9" android:duration="50" />
+    <item android:drawable="@drawable/solo_loading_icon_p10" android:duration="50" />
+    <item android:drawable="@drawable/solo_loading_icon_p11" android:duration="50" />
+</animation-list>

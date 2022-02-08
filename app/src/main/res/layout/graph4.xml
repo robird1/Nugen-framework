@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="320dp"
+    android:background="@color/background"
+    android:orientation="vertical" >
+<!-- 
+    <ImageView
+        android:id="@+id/graph4_title_img"
+        android:layout_width="188dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/targetgraph" />
+ -->
+    <LinearLayout
+        android:id="@+id/pie_img"
+        android:layout_width="188dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        />
+ 
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/graph4_title1"
+                style="@style/st_font_SmallTitle"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="Above"
+                android:textColor="@color/main_grey" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/graph4_value1"
+                style="@style/st_font_Warning_Title"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="25%"
+                android:textColor="@color/main_grey" />
+
+            <ImageView
+                android:id="@+id/graph4_img1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/circle_bg_high" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/main_brown" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/graph4_title2"
+                style="@style/st_font_SmallTitle"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="Within"
+                android:textColor="@color/main_grey" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/graph4_value2"
+                style="@style/st_font_Warning_Title"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="50%"
+                android:textColor="@color/main_grey" />
+
+            <ImageView
+                android:id="@+id/graph4_img2"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/circle_bg_target" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/main_brown" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/graph4_title3"
+                style="@style/st_font_SmallTitle"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="Below"
+                android:textColor="@color/main_grey" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/graph4_value3"
+                style="@style/st_font_Warning_Title"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="20%"
+                android:textColor="@color/main_grey" />
+
+            <ImageView
+                android:id="@+id/graph4_img3"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/circle_bg_low" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/main_brown" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/graph4_title4"
+                style="@style/st_font_SmallTitle"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="Hypo"
+                android:textColor="@color/main_grey" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/graph4_value4"
+                style="@style/st_font_Warning_Title"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="5%"
+                android:textColor="@color/main_grey" />
+
+            <ImageView
+                android:id="@+id/graph4_img4"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/circle_bg_hypo" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

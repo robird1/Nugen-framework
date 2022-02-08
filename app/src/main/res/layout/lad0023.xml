@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/id_lad0023"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp" >
+            
+            <ImageView
+                android:id="@+id/id_lad0023_circle_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="18dp"
+                android:contentDescription="circle Icon"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bg_red" />
+
+            <ImageView
+                android:id="@+id/id_lad0023_active_insulin_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="45dp"
+                android:contentDescription="active insulin icon"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bob_active_insulin" />
+
+            <ImageView
+                android:id="@+id/id_lad0023_active_meal_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/id_lad0023_active_insulin_icon"
+                android:layout_marginTop="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/carbs_75x75px" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/id_lad0023_bg_value"
+                style="@style/st_font_Default"
+                android:layout_width="95dp"
+                android:layout_height="25dp"
+                android:layout_alignTop="@id/id_lad0023_circle_icon"
+                android:layout_marginStart="67dp"
+                android:contentDescription="@string/cd_bg_unit"
+                android:gravity="center_vertical"
+                android:text="@string/txt_mgdl"
+                android:textColor="@color/main_grey" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/id_lad0023_active_insulin"
+                style="@style/st_font_Default"
+                android:layout_width="95dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/id_lad0023_bg_value"
+                android:layout_alignTop="@id/id_lad0023_active_insulin_icon"
+                android:contentDescription="@string/cd_unit"
+                android:gravity="center_vertical"
+                android:text="@string/txt_0_5u"
+                android:textColor="@color/main_grey" />
+
+            <LinearLayout
+                android:id="@+id/id_lad0023_carbs_text_block"
+                android:layout_width="115dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="94dp"
+                android:layout_toEndOf="@id/id_lad0023_active_insulin_icon"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+>
+
+                <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                    android:id="@+id/id_lad0023_carbs_title"
+                    style="@style/st_font_Default"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/txt_none"                                                             android:textColor="@color/main_grey" />
+
+                <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                    android:id="@+id/id_lad0023_carbs_value"
+                    style="@style/st_font_Default"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-7dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/txt_none"                                                             android:textColor="@color/main_grey" />
+                        </LinearLayout>
+
+            <include
+                android:id="@+id/id_lad0023_insulin_value_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="189dp"
+                android:layout_marginTop="23dp"
+                layout="@layout/button_b26"
+                android:contentDescription="@string/cd_main_btn1"
+                android:paddingStart="7dp"
+                android:paddingTop="31dp" />
+
+            <include
+                android:id="@+id/id_lad0023_insulin_value_carbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/id_lad0023_insulin_value_bg"
+                android:layout_alignTop="@id/id_lad0023_carbs_text_block"
+                layout="@layout/button_b26"
+                android:contentDescription="@string/cd_main_btn2"
+                android:paddingStart="7dp"
+                android:paddingTop="20dp" />
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="3dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@id/id_lad0023_insulin_value_carbs"
+                android:src="@color/main_grey" />
+
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@+id/id_lad0023_bg_value"
+                android:background="@drawable/lad23_line" >
+
+</RelativeLayout>
+            </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+        <include
+            android:id="@+id/id_lad0023_total_bolus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            layout="@layout/button_b25"
+            android:contentDescription="@string/cd_main_btn3" />
+
+<!-- B25 -->
+        <!-- B24 -->
+
+        <include
+            android:id="@+id/id_lad0023_bolus_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            layout="@layout/button_b24"
+            android:contentDescription="@string/cd_main_btn4" />
+
+<!-- instruction -->
+
+        <include
+            android:id="@+id/id_lad0023_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            layout="@layout/instruction" />
+    </LinearLayout>
+
+</ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lad0023_lower_ab"
+        android:layout_width="@dimen/dim_lower_ab_width"
+        android:layout_height="@dimen/dim_lower_ab_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

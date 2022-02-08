@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lower_action_bar3"
+    style="@style/st_LowerActionBar" >
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/btn1"
+        style="@style/st_lower_Action_Button4"
+        android:contentDescription="@string/cd_leftfooterbutton"
+        android:onClick="lowerClick_btn1" />
+
+    <ImageView
+        android:id="@+id/btn3"
+        style="@style/st_lower_Action_Button4"
+        android:contentDescription="@string/cd_centerfooterbutton"
+        android:onClick="lowerClick_btn3" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/btn2"
+        style="@style/st_lower_Action_Button5"
+        android:contentDescription="@string/cd_rightfooterbutton"
+        android:onClick="lowerClick_btn2" />
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+        <LinearLayout
+        android:id="@+id/lad00mm_lower_ab"
+        android:layout_width="@dimen/dim_lower_ab_width"
+        android:layout_height="@dimen/dim_lower_ab_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+    <TableLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_menutable_height"
+        android:paddingStart="@dimen/dim_menutable_paddingleft"
+        android:paddingTop="@dimen/dim_menutable_paddingTop" 
+>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            style="@style/st_MenuTableRow"                                     android:layout_marginBottom="18dp" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon1"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn1" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon2"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn2" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon3"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn3" />
+
+</TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            style="@style/st_MenuTableRow"                                     android:layout_marginBottom="18dp" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon4"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn4" />
+
+           <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+               android:id="@+id/menu_icon5"
+               style="@style/st_MenuIcon"
+               android:contentDescription="@string/cd_main_btn5" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon6"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn6" />
+
+</TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            style="@style/st_MenuTableRow"                                     android:layout_marginBottom="18dp" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon7"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn7" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon8"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn8" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon9"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn9" />
+
+</TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            style="@style/st_MenuTableRow"                                     android:layout_marginBottom="18dp" >
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon10"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn10" />
+
+            <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+                android:id="@+id/menu_icon11"
+                style="@style/st_MenuIcon"
+                android:contentDescription="@string/cd_main_btn11" />
+
+
+</TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>

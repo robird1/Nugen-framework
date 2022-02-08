@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@id/id_statusbg"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:minWidth="320dp"
+    android:minHeight="120dp" >
+    
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_status_bg_res"
+        style="@style/st_font_Status_BG_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dim_status_bg_margin_left"
+        android:contentDescription="@string/cd_bg_value"
+        android:layout_marginTop="-9dp"
+        android:lines="1"
+        android:maxHeight="57dp"
+        android:maxLines="1"
+        android:maxWidth="@dimen/dim_status_bg_max_width_res"
+        android:minHeight="80dp"
+        android:text="00.0"
+        android:textColor="@color/white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_status_bg_unit"
+        style="@style/st_font_Status_BG_Unit"
+        android:layout_width="@dimen/dim_status_bg_max_width_unit"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/id_status_bg_res"
+        android:layout_alignBottom="@+id/id_status_bg_res"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@+id/id_status_bg_res"
+        android:contentDescription="@string/cd_bg_unit"
+        android:text="mg/dl"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/id_status_bg_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/id_status_bg_unit"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/cd_bg_lo_hi"
+        android:src="@drawable/status_hyper_white" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_status_bg_date"
+        style="@style/st_font_Default"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="82dp"
+        android:contentDescription="@string/cd_bg_date"
+        android:text="10:00 am, 20. Aug. 2014"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_lad10a_linear"
+    android:layout_width="@dimen/dim_button_width_b1_b17"
+    android:layout_height="@dimen/dim_button_height_b1_b17"
+    android:orientation="horizontal" >
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_lad15_number"
+        style="@style/st_font_Second_Line"
+        android:layout_width="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:gravity="left"
+        android:maxLines="1"
+        android:textColor="@color/main_grey" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_lad15_text"
+        style="@style/st_font_Second_Line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:gravity="left"
+        android:maxLines="3"
+        android:textColor="@color/main_grey" />
+
+</LinearLayout>

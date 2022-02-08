@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topaction4"
+    android:layout_width="320dp"
+    android:layout_height="50dp"
+    android:background="@drawable/keyline" 
+>
+
+    <!-- Workaround for force background fill -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+    <!-- TODO: bottom divider -->
+
+    <ImageView
+        android:id="@+id/actionbar_img1"
+        style="@style/st_top_action_bar_img1" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/actionbar_title_text"
+        style="@style/st_font_ActionTitle"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="55dp"
+        android:gravity="start|center_vertical"
+        android:lines="2"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/topaction4_t1"
+        style="@style/st_font_Popup_Button"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="234dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:width="80dp" />
+
+</RelativeLayout>

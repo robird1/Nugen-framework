@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_button_white_field"
+    android:layout_width="96dp"
+    android:layout_height="75dp"
+    android:background="@color/android_blue" >
+
+    <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+        android:id="@+id/id_mm_title"
+        style="@style/st_font_SmallTitle"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="Bolus"
+        android:textColor="@color/main_grey" />
+
+     <ImageView
+         android:id="@+id/id_mm_icon"
+         android:layout_width="56dp"
+         android:layout_height="55dp"
+         android:layout_centerHorizontal="true"
+         android:maxHeight="55dp"
+         android:maxWidth="56dp"
+         android:src="@drawable/flight_mode_75x75" />
+
+</RelativeLayout>

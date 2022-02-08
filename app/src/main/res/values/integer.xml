@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="bg_low">40</integer>
+    <integer name="bg_hypo">60</integer>
+    <integer name="bg_target">80</integer>
+    <integer name="bg_hyper">120</integer>
+    <integer name="bg_high">600</integer>
+    <integer name="bg_hypersymbol">250</integer>
+    
+    
+    <integer name="bat_25">25</integer>
+    <integer name="bat_50">50</integer>
+    <integer name="bat_75">75</integer>
+    <integer name="bat_100">100</integer>
+    
+    <integer name="res_50">50</integer>
+    <integer name="res_100">100</integer>
+    <integer name="res_150">150</integer>
+    <integer name="res_200">200</integer>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/id_button_white_field"
+        style="@style/st_button_b2"
+        android:clickable="true"
+        android:onClick="b2_click" >
+
+        <CheckBox
+            android:id="@+id/id_b2_chkb"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:button="@drawable/check_box_color" />
+
+        <com.accu_chek.solo_m.rcapp.application.gui.ui.FontManager
+            android:id="@+id/id_b2_text"
+            style="@style/st_button_default_2_lines"
+            android:text="Forgot text?" />
+
+    </LinearLayout>
+
+</LinearLayout>
